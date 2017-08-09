@@ -650,3 +650,20 @@
 #ifndef ADVANCED_FAILSAFE
 # define ADVANCED_FAILSAFE DISABLED
 #endif
+
+// Enable/disable VTOL PARAMETERS
+#ifndef RF_TRIM_DEFAULT
+ #define RF_TRIM_DEFAULT 0
+#endif
+
+#ifndef RB_TRIM_DEFAULT
+ #define RB_TRIM_DEFAULT 0
+#endif
+
+#ifndef LF_TRIM_DEFAULT
+ #define LF_TRIM_DEFAULT 0
+#endif
+
+#ifndef LB_TRIM_DEFAULT
+ #define LB_TRIM_DEFAULT 0
+#endif

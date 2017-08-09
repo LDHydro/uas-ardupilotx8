@@ -888,6 +888,34 @@ const AP_Param::Info Copter::var_info[] = {
     // @Path: Parameters.cpp
     GOBJECT(g2, "",  ParametersG2),
     
+    // @Param: RF_TRIM
+    // @DisplayName: Righ Front Servo Trim
+    // @Description: Righ Front Servo Trim.
+    // @Range: -1000 1000
+    // @User: Standard
+    GSCALAR(rf_trim, "RF_TRIM", RF_TRIM_DEFAULT),
+
+    // @Param: RB_TRIM
+    // @DisplayName: Righ Back Servo Trim
+    // @Description: Righ Back Servo Trim.
+    // @Range: -1000 1000
+    // @User: Standard
+    GSCALAR(rb_trim, "RB_TRIM", RB_TRIM_DEFAULT),
+
+    // @Param: LF_TRIM
+    // @DisplayName: Left Front Servo Trim
+    // @Description: Left Front Servo Trim.
+    // @Range: -1000 1000
+    // @User: Standard
+    GSCALAR(lf_trim, "LF_TRIM", LF_TRIM_DEFAULT),
+
+    // @Param: LB_TRIM
+    // @DisplayName: Left Back Servo Trim
+    // @Description: Left Back Servo Trim.
+    // @Range: -1000 1000
+    // @User: Standard
+    GSCALAR(lb_trim, "LB_TRIM", LB_TRIM_DEFAULT),
+
     AP_VAREND
 };
 

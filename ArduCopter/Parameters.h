@@ -197,6 +197,16 @@ public:
         k_param_pos_control,
         k_param_circle_nav,     // 104
 
+        //
+        // 105: VTOL
+        //
+        k_param_rf_trim = 105,
+        k_param_rb_trim,
+        k_param_lf_trim,
+        k_param_lb_trim,
+        //k_param_ele_gain,
+        //k_param_ail_gain,
+
         // 110: Telemetry control
         //
         k_param_gcs0 = 110,
@@ -461,6 +471,13 @@ public:
     AP_Int8         terrain_follow;
 
     AP_Int16                rc_speed; // speed of fast RC Channels in Hz
+
+    //VTOL
+    //
+    AP_Int16        rf_trim;
+    AP_Int16        rb_trim;
+    AP_Int16        lf_trim;
+    AP_Int16        lb_trim;
 
     // Acro parameters
     AP_Float                acro_rp_p;
