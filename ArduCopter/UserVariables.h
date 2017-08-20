@@ -22,6 +22,8 @@ int servo1_cmd=0;
 int servo2_cmd=0;
 float rx_ch1=1500.0;
 float rx_ch2=1500.0;
+int user_debug_param=1500;
+int user_sign=1;
 
 #endif  // USERHOOK_VARIABLES
 
